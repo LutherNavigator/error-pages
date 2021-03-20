@@ -1,2 +1,7 @@
 # error-pages
-Error Pages
+
+Error Pages for Project LutherNavigator
+
+## License
+
+[MIT License](LICENSE)
