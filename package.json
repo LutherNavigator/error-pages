@@ -1,0 +1,19 @@
+{
+  "name": "error-pages",
+  "version": "0.1.0",
+  "description": "Error pages for LutherNavigator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LutherNavigator/error-pages.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LutherNavigator/error-pages/issues"
+  },
+  "homepage": "https://github.com/LutherNavigator/error-pages#readme"
+}
