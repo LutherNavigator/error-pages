@@ -6,7 +6,6 @@ const port = parseInt(process.env.PORT);
 
 const pagesDir = "pages";
 const staticDir = "static";
-const pages = ["error", "maintenance"];
 
 function sendHTML(res, urlPath, callback) {
   fs.readFile(
@@ -47,7 +46,7 @@ function sendStatic(res, urlPath, callback) {
 const server = http.createServer((req, res) => {
   const urlPath = req.url.slice(1);
 
-  if (pages.includes(urlPath)) {
+  if (fs.existsSync(path.join(__dirname, pagesDir, urlPath + ".html"))) {
     sendHTML(res, urlPath, (err) => {
       if (err) {
         console.error(err);
