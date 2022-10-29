@@ -1,0 +1,30 @@
+html {
+  font-family: "Comfortaa", "Roboto", sans-serif;
+  text-align: center;
+}
+
+img {
+  margin-top: 20px;
+}
+
+.err-logo {
+  width: 45px;
+  height: 45px;
+}
+
+/* spinning logos */
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation-name: spinning;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
