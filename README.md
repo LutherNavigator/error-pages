@@ -4,7 +4,7 @@ Error Pages for the LutherNavigator project. The project itself can be found [he
 
 ## Pages
 
-The error pages include an [application error page](https://luther-navigator-error-pages.herokuapp.com/error) and a [maintenance page](https://luther-navigator-error-pages.herokuapp.com/maintenance).
+The error pages include an [application error page](https://luthernavigator.github.io/error-pages/error.html) and a [maintenance page](https://luthernavigator.github.io/error-pages/maintenance.html).
 
 ## License
 
